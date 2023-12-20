@@ -12,9 +12,7 @@ class SignLoading extends SignState {
 }
 
 class ImageLoading extends SignState {
-  final int sent;
-  final int total;
-  ImageLoading({required this.total, required this.sent});
+  ImageLoading();
 }
 
 class SignLoaded extends SignState {
